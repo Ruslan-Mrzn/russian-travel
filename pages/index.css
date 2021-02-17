@@ -1,0 +1,7 @@
+/* Подключаем Normalize */
+@import url("../vendor/normalize.css");
+/*---------------------*/
+
+/* Подключаем локальные шрифты */
+@import url("../vendor/fonts/fonts.css");
+/*---------------------*/
