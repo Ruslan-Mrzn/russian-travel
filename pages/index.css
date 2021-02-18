@@ -1,7 +1,24 @@
-/* Подключаем Normalize */
-@import url("../vendor/normalize.css");
-/*---------------------*/
-
 /* Подключаем локальные шрифты */
 @import url("../vendor/fonts/fonts.css");
-/*---------------------*/
+/*--------------------------*/
+
+
+/* Подключаем Normalize */
+@import url("../vendor/normalize.css");
+/*--------------------------*/
+
+
+/* Общие стили для страницы */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+/*--------------------------*/
+
+/* Cтили для блока header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__inner/header__inner.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__header-link/header__header-link.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_type/header__lang-link_type_active.css);
+/*--------------------------*/

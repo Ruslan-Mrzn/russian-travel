@@ -1,0 +1,9 @@
+.header__lang-link_type_active {
+  border-bottom: 2px solid white;
+  transition: none;
+}
+
+.header__lang-link_type_active:hover {
+  opacity: 1;
+}
+

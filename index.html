@@ -12,27 +12,50 @@
       background-position:  50% 0;
       /* По умолчанию показывается мобильный макет */
       background-image: url( "../PixPerfect/russian-travel-320px.png" );
+      background-color: grey;
     }
     /* Планшет */
-   /*  @media ( min-width: 760px ) {
+    @media ( min-width: 768px ) {
       HTML {
 
-        background-image: url( "img/760.png" );
+        background-image: url( "../PixPerfect/russian-travel-728px.png" );
       }
-    } */
-    /* Десктоп */
-    /* @media ( min-width: 960px ) {
+    }
+    /* Десктоп 4:3 */
+    @media ( min-width: 1024px ) {
       HTML {
 
-        background-image: url( "img/960.png" );
+        background-image: url( "../PixPerfect/russian-travel-1024px.png" );
       }
-    } */
+    }
+    /* Десктоп 16:9 */
+    @media ( min-width: 1280px ) {
+      HTML {
+
+        background-image: url( "../PixPerfect/russian-travel-1280px.png" );
+      }
+    }
   </style>
   <link href="./node_modules/pixel-glass/styles.css" rel="stylesheet">
   <script src="./node_modules/pixel-glass/script.js"></script>
   <!-- // Pixel Glass -->
 </head>
-<body>
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="./images/header-logo.svg" alt="логотип с изображением России">
+        <ul class="header__links">
+          <li class="header__header-link">
+            <a target="_self" class="header__lang-link header__lang-link_type_active" aria-disabled="true">Ru</a>
+          </li>
+          <li class="header__header-link">
+            <a href="#" target="_self" class="header__lang-link">En</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
 
 </body>
 </html>
