@@ -11,11 +11,11 @@
 /* Общие стили для страницы */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__header/page__header.css);
 /*--------------------------*/
 
 /* Cтили для блока header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__inner/header__inner.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__header-link/header__header-link.css);
