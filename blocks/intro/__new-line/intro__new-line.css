@@ -1,0 +1,11 @@
+.intro__new-line {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 322px) {
+  .intro__new-line {
+    display: inline;
+  }
+}
