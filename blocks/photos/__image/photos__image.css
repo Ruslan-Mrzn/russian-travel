@@ -1,0 +1,7 @@
+.photos__image {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: left top;
+}

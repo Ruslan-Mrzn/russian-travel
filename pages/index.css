@@ -14,6 +14,7 @@
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__lead/page__lead.css);
 @import url(../blocks/page/__intro/page__intro.css);
+@import url(../blocks/page/__photos/page__photos.css);
 /*--------------------------*/
 
 /* Cтили для блока header */
@@ -44,4 +45,12 @@
 @import url(../blocks/intro/__list-row/intro__list-row.css);
 @import url(../blocks/intro/__list-characteristic/intro__list-characteristic.css);
 @import url(../blocks/intro/__list-value/intro__list-value.css);
+/*--------------------------*/
+
+
+/* Cтили для блока photos */
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__gallery/photos__gallery.css);
+@import url(../blocks/photos/__frame/photos__frame.css);
+@import url(../blocks/photos/__image/photos__image.css);
 /*--------------------------*/
