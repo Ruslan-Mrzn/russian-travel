@@ -1,0 +1,12 @@
+.place__new-line {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+@media screen and (min-width: 322px) {
+  .place__new-line {
+    display: inline;
+  }
+}
+

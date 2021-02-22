@@ -1,0 +1,6 @@
+@media screen and (min-width: 420px) {
+  .place__text-container {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
