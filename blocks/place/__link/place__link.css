@@ -6,4 +6,11 @@
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
+  transition: opacity .3s ease-in;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__link:hover {
+    opacity: .8;
+  }
 }
