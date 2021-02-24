@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 768px) {
   .page__photos {
-    padding-top: 86px;
+    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1024px) {
   .page__photos {
-    padding-top: 90px;
+    padding-top: 92px;
     padding-left: 48px;
     padding-right: 48px;
   }
