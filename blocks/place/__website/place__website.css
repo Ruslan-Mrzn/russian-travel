@@ -3,7 +3,7 @@
   padding: 32px 16px;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 600px) {
   .place__website {
     padding: 0;
     grid-column: 2/3;

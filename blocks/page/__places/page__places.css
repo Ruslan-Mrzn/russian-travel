@@ -3,6 +3,13 @@
   padding: 66px 0 0 0;
 }
 
+@media screen and (min-width: 600px) {
+  .page__places {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .page__places {
     padding-top: 88px;
